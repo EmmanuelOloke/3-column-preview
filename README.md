@@ -14,7 +14,7 @@ This is the third challenge I'm attempting. My completion time is getting shorte
 
 ## Links
 
-- Solution: [https://www.frontendmentor.io/solutions/stats-preview-card-component-solution-G-bRQv-gd]
+- Solution: [https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-RtC7WPq6N]
 - Live Site URL: [https://emmanueloloke.github.io/3-column-preview/]
 
 ## My Process
