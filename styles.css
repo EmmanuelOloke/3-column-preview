@@ -10,20 +10,29 @@ body {
     display: flex;
     flex-direction: row;
     width: 70%;
-    height: 60vh;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.column-sedans {
-    background-color: hsl(31, 77%, 52%);
-    flex-basis: 33.333333%;
+.icon {
+    transition: 1s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: translateX(100px);
 }
 
 .column-content {
     margin-top: 14%;
     margin-left: 14%;
+    height: 400px;
+}
+
+.column-sedans {
+    background-color: hsl(31, 77%, 52%);
+    flex-basis: 33.333333%;
 }
 
 .column-sedan-button {
@@ -34,7 +43,7 @@ body {
     border: none;
     padding: 15px;
     width: 50%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .column-sedan-button:hover {
@@ -58,7 +67,7 @@ body {
     border: none;
     padding: 15px;
     width: 50%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .column-suvs-button:hover {
@@ -82,7 +91,7 @@ body {
     border: none;
     padding: 15px;
     width: 50%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .column-luxury-button:hover {
@@ -103,4 +112,121 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     width: 78%;
     text-align: left;
+}
+
+.attribution {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body {
+        height: max-content;
+        overflow: auto;
+    }
+    .column-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .icon {
+        transition: 1s;
+    }
+    .icon:hover {
+        cursor: pointer;
+        transform: translateX(100px);
+    }
+    .column-content {
+        height: 400px;
+        margin-bottom: 40px;
+    }
+    .column-sedans {
+        background-color: hsl(31, 77%, 52%);
+        flex-basis: 33.333333%;
+    }
+    .column-sedan-button {
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);
+        border-radius: 40px;
+        border: none;
+        padding: 15px;
+        width: 50%;
+        margin-top: 30%;
+    }
+    .column-sedan-button:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        cursor: pointer;
+        transition: all 0.4s ease;
+    }
+    .column-suvs {
+        background-color: hsl(184, 100%, 22%);
+        flex-basis: 33.333333%;
+    }
+    .column-suvs-button {
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        border-radius: 40px;
+        border: none;
+        padding: 15px;
+        width: 50%;
+        margin-top: 30%;
+    }
+    .column-suvs-button:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        cursor: pointer;
+        transition: all 0.4s ease;
+    }
+    .column-luxury {
+        background-color: hsl(179, 100%, 13%);
+        flex-basis: 33.333333%;
+    }
+    .column-luxury-button {
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+        border-radius: 40px;
+        border: none;
+        padding: 15px;
+        width: 50%;
+        margin-top: 30%;
+    }
+    .column-luxury-button:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+        cursor: pointer;
+        transition: all 0.4s ease;
+    }
+    .column-headers {
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', sans-serif;
+    }
+    .colum-paragraphs {
+        color: hsla(0, 0%, 100%, 0.65);
+        font-family: 'Lexend Deca', sans-serif;
+        width: 78%;
+        text-align: left;
+    }
+    .attribution {
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
 }
