@@ -21,6 +21,11 @@ body {
     flex-basis: 33.333333%;
 }
 
+.column-content {
+    margin-top: 14%;
+    margin-left: 14%;
+}
+
 .column-sedan-button {
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(0, 0%, 95%);
@@ -28,7 +33,16 @@ body {
     border-radius: 40px;
     border: none;
     padding: 15px;
-    width: 40%;
+    width: 50%;
+    margin-top: 30%;
+}
+
+.column-sedan-button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .column-suvs {
@@ -43,7 +57,16 @@ body {
     border-radius: 40px;
     border: none;
     padding: 15px;
-    width: 40%;
+    width: 50%;
+    margin-top: 30%;
+}
+
+.column-suvs-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .column-luxury {
@@ -58,7 +81,16 @@ body {
     border-radius: 40px;
     border: none;
     padding: 15px;
-    width: 40%;
+    width: 50%;
+    margin-top: 30%;
+}
+
+.column-luxury-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .column-headers {
@@ -67,6 +99,8 @@ body {
 }
 
 .colum-paragraphs {
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsla(0, 0%, 100%, 0.65);
     font-family: 'Lexend Deca', sans-serif;
+    width: 78%;
+    text-align: left;
 }
