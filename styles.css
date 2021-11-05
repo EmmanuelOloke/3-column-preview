@@ -224,7 +224,7 @@ body {
     .attribution {
         font-family: 'Lexend Deca', sans-serif;
         text-align: center;
-        position: fixed;
+        position: sticky;
         left: 0;
         bottom: 0;
         width: 100%;
